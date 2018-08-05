@@ -3,14 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://danielferreiradf.github.io/spotifytheme",
   "scripts": {
     "sass": "node-sass ./src/sass/main.scss ./public/styles/style.css --w",
-    "dev": "live-server ./public"
+    "dev": "live-server ./public",
+    "deploy": "gh-pages -d public"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "gh-pages": "^1.2.0",
     "live-server": "^1.2.0",
     "node-sass": "^4.9.2",
     "slick-carousel": "^1.8.1"
