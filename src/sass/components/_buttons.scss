@@ -1,0 +1,22 @@
+button {
+    border: none;
+}
+.btn {    
+    text-transform: uppercase;    
+    font-weight: bold;
+    transition: all .2s;
+
+    &--green {
+        color: $white;
+        background-color: $green-medium;
+        
+        &:hover {
+            background-color: $green-light;
+        }
+    }
+    &--big {
+        border-radius: 30px;
+        font-size: 1.4rem;
+        padding: 15px 45px;
+    }
+}

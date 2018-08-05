@@ -1,0 +1,47 @@
+.navbar {
+    position: fixed;
+    height: 75px;
+    background-color: rgba($black, 0.6);
+    width: 100%;
+    top: 0;
+    z-index: 1;
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        padding: 0 2rem;
+    }
+    &__brand {
+        background: url(../imgs/spotify-logo.png) no-repeat;
+        background-size: contain;
+        height: 4rem;
+        width: 14rem;
+        margin-top: 18px;
+    }
+    &__menu {
+
+    }
+    &__menu-top {
+        margin-top: 25px;
+        display: flex;
+    }
+    &__menu-item {
+
+    }
+    &__menu-item-link {
+        padding-left: 25px;
+        color: #fff;
+        font-size: 1.6rem;
+        font-weight: bold;
+
+        &:hover {
+            color: $green-medium;
+        }
+    }
+    &__menu-item-link--disable {
+        padding-left: 25px;
+        color: #fff;
+        font-size: 1.6rem;
+    }
+}

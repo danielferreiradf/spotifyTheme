@@ -1,0 +1,54 @@
+.info1 {
+
+}
+.info2 {
+    background: url(../imgs/bg2.jpg) no-repeat;
+    background-size: cover;
+
+    // Phone Background
+
+    &__section-a {
+        background: url(../imgs/phone.png);
+        margin-top: 30px;
+    }
+    &__phone {
+        margin-top: 150px;
+        margin-left: 150px;
+        color: #fff;
+    }
+    &__phone-display {
+        display: flex;
+        margin-left: -35px;
+    }
+    &__phone h1 {
+        font-size: 1.8rem;
+        margin-left: 35px;
+    }
+    &__phone-item {
+        width: 110px;
+        margin: 10px;
+    }
+    &__phone-item-img {
+        width: 100%;
+    }
+    &__phone-item-paragraph {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    &__phone-content {
+        margin-top: 40px;
+    }
+    &__phone-content-paragraph {
+        font-size: 1.7rem;
+        padding-top: 15px;
+    }
+}
+.info4 {
+    background: url(../imgs/bg3.jpg) no-repeat;
+    background-size: cover;
+    
+    &__content-cards {
+        display: flex;
+        justify-content: center;
+    }
+}

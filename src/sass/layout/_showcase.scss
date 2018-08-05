@@ -1,0 +1,25 @@
+.showcase {
+    min-height: 65rem;
+    background: url(../imgs/bg1.jpg) no-repeat;
+    background-size: cover;
+    position: relative;
+
+    &__carousel {
+        // @include absCenter;    
+        // position: absolute;
+        top: 22rem;  
+    }
+    &__carousel-item {
+        text-align: center;
+
+        &-h1 {
+            color: $white;
+            font-size: 7.2rem;
+            margin-bottom: 40px;
+        }
+
+        
+
+    }
+    
+}

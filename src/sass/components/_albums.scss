@@ -1,0 +1,14 @@
+.info__section-b-albums {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.albums {
+    width: 100%;
+    transition: 0.4s ease;
+
+    &:hover {
+        filter: brightness(0.5);
+    }
+
+    
+}

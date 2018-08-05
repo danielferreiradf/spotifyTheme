@@ -1,0 +1,22 @@
+.d-flex { display: flex; }
+
+.font-small{ font-size: 1.2rem; }
+
+.text-center { text-align: center !important; }
+.text-white { color: #fff; }
+.text-green { color: $green-medium; }
+.text-grey { color: $grey-medium; }
+.text-grey-dark { color: gray; }
+
+.margin-top-medium { margin-top: 5rem !important; }
+.margin-top-big { margin-top: 8rem !important; }
+.margin-top-huge { margin-top: 10rem !important; }
+
+.margin-bottom-small { margin-bottom: 1.5rem !important; }
+.margin-bottom-medium { margin-bottom: 4rem !important; }
+.margin-bottom-big { margin-bottom: 8rem !important; }
+.margin-bottom-huge { margin-bottom: 10rem !important; }
+
+.margin-y-medium { margin: 4rem 0; }
+
+.py-big { padding: 6rem 0;};

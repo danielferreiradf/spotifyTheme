@@ -1,0 +1,43 @@
+.footer {
+    background: $black;
+
+    &__content {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 2fr 1fr;
+        
+        &-col {
+            margin-top: 70px;
+            padding: 10px;
+        }
+    }
+    &__content-2 {
+        margin-top: 70px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__logo {
+        width: 13rem;
+    }
+    &__link {
+        display: block;
+        padding: 12px 0;
+        font-size: 1.4rem;
+        color: $white;
+        font-weight: 500;
+
+        &:hover {
+            color: $green-medium;
+        }
+    }
+    &__paragraph-bottom {
+        padding: 0px 10px;
+        color: #ccc;
+        cursor: pointer;
+        // padding-bottom: 60px;
+        font-size: 1.1rem;
+        
+        &:hover {
+            color: $green-medium;
+        }
+    }
+}
