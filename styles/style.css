@@ -1,0 +1,296 @@
+.container {
+  max-width: 1150px;
+  margin: 0 auto; }
+
+.container-content {
+  display: flex; }
+  .container-content--divider {
+    padding: 10px;
+    width: 50%; }
+
+*, *::after, *::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  /* font-family: Gotham Regular; */
+  font-family: 'Montserrat', sans-serif;
+  background: #f2f2f2;
+  box-sizing: border-box; }
+
+button,
+input,
+textarea {
+  border-radius: 0; }
+
+ul {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+.heading-primary {
+  font-size: 4.5rem;
+  font-weight: 700;
+  color: #252525; }
+
+.heading-secondary {
+  font-size: 2.5rem;
+  margin: 25px 0; }
+
+.paragraph {
+  font-size: 1.6rem;
+  line-height: 2.7rem;
+  font-weight: 500; }
+  .paragraph-secondary {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase; }
+  .paragraph-tertiary {
+    font-size: 1.2rem;
+    padding-top: 20px;
+    padding-bottom: 70px;
+    font-weight: 500; }
+
+.d-flex {
+  display: flex; }
+
+.font-small {
+  font-size: 1.2rem; }
+
+.text-center {
+  text-align: center !important; }
+
+.text-white {
+  color: #fff; }
+
+.text-green {
+  color: #1db954; }
+
+.text-grey {
+  color: #ccc; }
+
+.text-grey-dark {
+  color: gray; }
+
+.margin-top-medium {
+  margin-top: 5rem !important; }
+
+.margin-top-big {
+  margin-top: 8rem !important; }
+
+.margin-top-huge {
+  margin-top: 10rem !important; }
+
+.margin-bottom-small {
+  margin-bottom: 1.5rem !important; }
+
+.margin-bottom-medium {
+  margin-bottom: 4rem !important; }
+
+.margin-bottom-big {
+  margin-bottom: 8rem !important; }
+
+.margin-bottom-huge {
+  margin-bottom: 10rem !important; }
+
+.margin-y-medium {
+  margin: 4rem 0; }
+
+.py-big {
+  padding: 6rem 0; }
+
+.info__section-b-albums {
+  display: grid;
+  grid-template-columns: 1fr 1fr; }
+
+.albums {
+  width: 100%;
+  transition: 0.4s ease; }
+  .albums:hover {
+    filter: brightness(0.5); }
+
+button {
+  border: none; }
+
+.btn {
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: all .2s; }
+  .btn--green {
+    color: #fff;
+    background-color: #1db954; }
+    .btn--green:hover {
+      background-color: #2bde6a; }
+  .btn--big {
+    border-radius: 30px;
+    font-size: 1.4rem;
+    padding: 15px 45px; }
+
+.card {
+  margin: 10px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.3);
+  height: 650px;
+  transition: 0.2s all; }
+  .card:hover {
+    transform: translate(0, -5px);
+    box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.5); }
+  .card-head {
+    height: 170px; }
+  .card-body {
+    height: 370px;
+    padding: 20px 0; }
+  .card-heading-1 {
+    font-size: 3rem; }
+  .card-heading-2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 5px 0; }
+  .card-heading-3 {
+    font-size: 1.1rem;
+    font-weight: 500; }
+  .card-heading-span {
+    font-size: 1.2rem; }
+  .card-paragraph {
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding: 5px 0;
+    font-weight: 500; }
+  .card-divider {
+    opacity: 0.3; }
+    .card-divider-2 {
+      opacity: 0.3;
+      margin-bottom: 30px; }
+  .card-button {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    background: #1db954;
+    padding: 15px 70px;
+    border-radius: 30px;
+    margin-left: 20px;
+    transition: 0.2s all; }
+    .card-button:hover {
+      background: #2bde6a; }
+
+.footer {
+  background: #000; }
+  .footer__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr 1fr; }
+    .footer__content-col {
+      margin-top: 70px;
+      padding: 10px; }
+  .footer__content-2 {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between; }
+  .footer__logo {
+    width: 13rem; }
+  .footer__link {
+    display: block;
+    padding: 12px 0;
+    font-size: 1.4rem;
+    color: #fff;
+    font-weight: 500; }
+    .footer__link:hover {
+      color: #1db954; }
+  .footer__paragraph-bottom {
+    padding: 0px 10px;
+    color: #ccc;
+    cursor: pointer;
+    font-size: 1.1rem; }
+    .footer__paragraph-bottom:hover {
+      color: #1db954; }
+
+.info2 {
+  background: url(../imgs/bg2.jpg) no-repeat;
+  background-size: cover; }
+  .info2__section-a {
+    background: url(../imgs/phone.png);
+    margin-top: 30px; }
+  .info2__phone {
+    margin-top: 150px;
+    margin-left: 150px;
+    color: #fff; }
+  .info2__phone-display {
+    display: flex;
+    margin-left: -35px; }
+  .info2__phone h1 {
+    font-size: 1.8rem;
+    margin-left: 35px; }
+  .info2__phone-item {
+    width: 110px;
+    margin: 10px; }
+  .info2__phone-item-img {
+    width: 100%; }
+  .info2__phone-item-paragraph {
+    font-size: 1rem;
+    font-weight: bold; }
+  .info2__phone-content {
+    margin-top: 40px; }
+  .info2__phone-content-paragraph {
+    font-size: 1.7rem;
+    padding-top: 15px; }
+
+.info4 {
+  background: url(../imgs/bg3.jpg) no-repeat;
+  background-size: cover; }
+  .info4__content-cards {
+    display: flex;
+    justify-content: center; }
+
+.navbar {
+  position: fixed;
+  height: 75px;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  top: 0;
+  z-index: 1; }
+  .navbar__content {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 0 2rem; }
+  .navbar__brand {
+    background: url(../imgs/spotify-logo.png) no-repeat;
+    background-size: contain;
+    height: 4rem;
+    width: 14rem;
+    margin-top: 18px; }
+  .navbar__menu-top {
+    margin-top: 25px;
+    display: flex; }
+  .navbar__menu-item-link {
+    padding-left: 25px;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: bold; }
+    .navbar__menu-item-link:hover {
+      color: #1db954; }
+  .navbar__menu-item-link--disable {
+    padding-left: 25px;
+    color: #fff;
+    font-size: 1.6rem; }
+
+.showcase {
+  min-height: 65rem;
+  background: url(../imgs/bg1.jpg) no-repeat;
+  background-size: cover;
+  position: relative; }
+  .showcase__carousel {
+    top: 22rem; }
+  .showcase__carousel-item {
+    text-align: center; }
+    .showcase__carousel-item-h1 {
+      color: #fff;
+      font-size: 7.2rem;
+      margin-bottom: 40px; }
