@@ -2,6 +2,8 @@
 
 Spotify home page project, developed to improve front end skills.
 
+--Responsive version is not implemented yet.
+
 ## Built With
 
 - HTML
